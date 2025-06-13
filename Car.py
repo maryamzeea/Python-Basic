@@ -1,0 +1,21 @@
+from cars import Car
+
+Car1 = Car ("BMW",2024,"Black",True)
+Car2 = Car ("Bugatti",2024,"Blue",False)
+print(Car1)
+print(Car1.model)
+print(Car1.year)
+print(Car1.color)
+print(Car1.for_sale)
+print(Car1.drive())
+print(Car1.stop())
+print(Car1.describe())
+
+print(Car2)
+print(Car2.model)
+print(Car2.year)
+print(Car2.color)
+print(Car2.for_sale)
+print(Car2.drive())
+print(Car2.stop())
+print(Car2.describe())
